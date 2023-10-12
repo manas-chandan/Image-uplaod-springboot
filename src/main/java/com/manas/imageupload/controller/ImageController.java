@@ -96,4 +96,9 @@ public class ImageController {
         return imageRepository.findAll();
     }
 
+    @GetMapping
+    public String greetMessage() {
+        return "Hello world";
+    }
+
 }
